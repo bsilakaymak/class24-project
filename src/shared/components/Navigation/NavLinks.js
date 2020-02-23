@@ -17,7 +17,11 @@ const NavLinks = props => {
         <li>
           <NavLink to="/u1/places">My Places</NavLink>
         </li>
+        
       )}
+      <li>
+        <NavLink to="/something">Will it Redirect?</NavLink>
+      </li>
       {auth.isLoggedIn && (
         <li>
           <NavLink to="/places/new">Add Place</NavLink>
